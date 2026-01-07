@@ -21,6 +21,7 @@ Create a working keypad for Pop'n Music
 1. Made some simple paper sketches of what exactly I am looking for.
 2. I watched various tutorials on YouTube.
 3. Designed a PCB on Kicad
+
 to be continued...
 
 ## Gallery
