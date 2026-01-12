@@ -1,5 +1,5 @@
 # Pop'n Keypad
-This is an unfinished macropad I am working on for the rhythm game Pop'n Music. I am currently designing its PCB. 
+This is an unfinished macropad I am working on for the rhythm game [Pop'n Music](https://en.wikipedia.org/wiki/Pop%27n_Music). I am currently designing its PCB. 
 
 ## The Problem
 To keep it short, because the keys on my laptop tend to ghost their inputs when I press multiple keys at a time, I need to have a dedicated controller to play Pop'n Music. Buying a full controller and making one yourself are both ridiculously expensive, so I instead sought to make a miniature macropad with a very similar layout!
