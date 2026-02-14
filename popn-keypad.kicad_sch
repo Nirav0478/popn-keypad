@@ -782,6 +782,70 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 181.61 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "313a4774-1950-4560-bff5-b9c4afb1e940")
+	)
+	(no_connect
+		(at 212.09 73.66)
+		(uuid "034e2145-0e75-45f0-9311-4e1874bb3f60")
+	)
+	(no_connect
+		(at 212.09 66.04)
+		(uuid "07e9bd95-3266-48a9-81dc-c634af086430")
+	)
+	(no_connect
+		(at 212.09 83.82)
+		(uuid "27f97e93-fc03-4393-ae9d-660ac2d9672f")
+	)
+	(no_connect
+		(at 212.09 86.36)
+		(uuid "5a321ff6-9bc2-4419-a95b-377b59710e7d")
+	)
+	(no_connect
+		(at 212.09 68.58)
+		(uuid "63521513-04e6-48aa-b4ba-8a382254d46b")
+	)
+	(no_connect
+		(at 212.09 60.96)
+		(uuid "94feafc3-87d1-40f2-968b-f854eac6f97b")
+	)
+	(no_connect
+		(at 181.61 88.9)
+		(uuid "955a5419-1d18-4ff5-957b-eb51b1089420")
+	)
+	(no_connect
+		(at 212.09 78.74)
+		(uuid "bbfdf238-37c7-40b1-95e7-a2786e05e717")
+	)
+	(no_connect
+		(at 212.09 76.2)
+		(uuid "c70efbda-111f-4900-a22b-7320923ad3ba")
+	)
+	(no_connect
+		(at 212.09 71.12)
+		(uuid "cd37eed7-463d-412f-a724-b7e6882f3847")
+	)
+	(no_connect
+		(at 212.09 81.28)
+		(uuid "cfac6ccd-e1ac-46d6-9c06-f37834b0e2a3")
+	)
+	(no_connect
+		(at 212.09 88.9)
+		(uuid "fc37933a-58f6-4b91-86aa-53e55353c886")
+	)
+	(wire
+		(pts
+			(xy 181.61 66.04) (xy 181.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8903d5a5-ac7a-47cb-ab34-185d75d55e38")
+	)
 	(global_label "S7"
 		(shape input)
 		(at 181.61 81.28 180)
@@ -1612,7 +1676,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.3399 63.5 0)
+			(at 177.8 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,6 +1718,73 @@
 			(project "popn-keypad"
 				(path "/a278322b-c6f1-4b05-8a28-8294d8d274dd"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3810b42b-89ae-48a2-ac07-5a64f3a020d9")
+		(property "Reference" "#PWR011"
+			(at 218.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "485c1665-7426-406b-9826-9f0785885c03")
+		)
+		(instances
+			(project "popn-keypad"
+				(path "/a278322b-c6f1-4b05-8a28-8294d8d274dd"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2345,7 +2476,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 152.4 81.28 0)
+		(at 157.48 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2354,7 +2485,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a7ef8c0-f74d-4e16-814c-56f76cc02652")
 		(property "Reference" "S8"
-			(at 152.4 81.28 0)
+			(at 157.48 71.12 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2365,7 +2496,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 76.2 0)
+			(at 157.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2504,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_Plated_1.00u"
-			(at 152.4 81.28 0)
+			(at 157.48 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 83.058 0)
+			(at 154.94 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2522,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 81.28 0)
+			(at 157.48 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2685,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 157.48 71.12 0)
+		(at 152.4 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2563,7 +2694,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5224586-5f57-4760-bfb6-638475aee706")
 		(property "Reference" "S7"
-			(at 157.48 71.12 0)
+			(at 152.4 81.28 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2574,7 +2705,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 157.48 66.04 0)
+			(at 152.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,7 +2713,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_Plated_1.00u"
-			(at 157.48 71.12 0)
+			(at 152.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 72.898 0)
+			(at 149.86 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,7 +2731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 71.12 0)
+			(at 152.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
