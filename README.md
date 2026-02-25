@@ -25,6 +25,7 @@ Create a working keypad for Pop'n Music
 2. I watched various tutorials on YouTube about using KiCad to make keyboard PCBs.
 3. Prototyped a rudimentary outline on TinkerCad.
 4. Designed a PCB on Kicad
+5. Currently creating a 3D-printed case on Onshape based on the PCB
 
 to be continued...
 
