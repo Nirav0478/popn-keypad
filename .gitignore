@@ -1,4 +1,4 @@
 old/
-popn-keypad-backups/
+kicad/popn-keypad-backups/
 *.lck
-production/backups
+kicad/production/backups
