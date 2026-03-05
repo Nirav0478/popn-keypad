@@ -29,5 +29,7 @@ Create a working keypad for Pop'n Music
 
 to be continued...
 
+## [Onshape Link](https://cad.onshape.com/documents/f7e567a801d71e2f8f1533ab/w/61ac0e9fbb2c20d94dde86a0/e/666452ca24dc6e20860be091?renderMode=0&uiState=69a9eb1542bac0e2952504f7)
+
 ## Gallery
 Coming soon!
