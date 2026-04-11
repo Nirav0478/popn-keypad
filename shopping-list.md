@@ -5,4 +5,4 @@
 - 2mm screw kit, prefer 14 or 16mm screws
 - [Sparkfun Pro Micro](https://www.sparkfun.com/sparkfun-qwiic-pro-micro-usb-c-atmega32u4.html#), with headers
 - [Hotswap PCB sockets](https://a.co/d/0c1ZFvqF)
-- [Cherry MX Red switches](https://www.digikey.com/en/products/detail/cherry-americas-llc/MX2A-L1NA/21738404)
+- [Cherry MX Silver](https://www.digikey.com/en/products/detail/cherry-americas-llc/MX2A-L1NA/21738404)
