@@ -6,3 +6,4 @@
 - [Sparkfun Pro Micro](https://www.sparkfun.com/sparkfun-qwiic-pro-micro-usb-c-atmega32u4.html#), with headers
 - [Hotswap PCB sockets](https://a.co/d/0c1ZFvqF)
 - [Cherry MX Silver](https://www.digikey.com/en/products/detail/cherry-americas-llc/MX2A-L1NA/21738404)
+- [12-pin female header](https://a.co/d/099wdV2n)
