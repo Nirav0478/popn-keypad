@@ -19,6 +19,7 @@ Create a working keypad for Pop'n Music
 - Hot swap plugs
 - Keyswitches (clicky)
 - 3d printed case
+- 4x screws, nuts, and washers
 
 ## My Design process
 1. Made some simple paper sketches of what exactly I am looking for.
